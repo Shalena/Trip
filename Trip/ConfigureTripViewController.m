@@ -43,13 +43,17 @@
 - (void)textFieldDidBeginEditing:(UITextField *)textField{
     
     self.coutryTextField.inputView = self.picker;
+ 
     
     [ [AFHTTPSessionManager manager] GET:@"http://api.geonames.org/countryInfoJSON?username=bolmax" parameters:nil success: ^(NSURLSessionDataTask *  task, id   responseObject){
+        
         NSDictionary *dictionary = (NSDictionary *)responseObject;
         self.countriesArray = [Country coutryArrayFromJsonArray:dictionary[@"geonames"]];
+        [self.picker reloadAllComponents];
     } failure:^(NSURLSessionDataTask * task, NSError * error) {
 
     }];
+    
 }
 
 
@@ -67,6 +71,8 @@
     return countryName.coutryName;
 }
 
+
+// http://api.geonames.org/childrenJSON?geonameId=630336&username=bolmax
 
 
 @end
