@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JASidePanels.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,17 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E3D52F2821110782E34CA8BDC28A6DE3</key>
+		<key>6B491528826686D9188B629C1E5D1700</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3FD82589C0605D39EE8572BB0608E98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1E0BE5977E1577B1F0E7743D5118562</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>FE2F1D7B9D9FCEA148517E4657B243F4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FEACF08FBF34DF5009F77C291E1D3E98</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -24,19 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.coutryTextField.inputView = self.picker;
     
-    [ [AFHTTPSessionManager manager] GET:@"http://api.geonames.org/countryInfoJSON?username=bolmax" parameters:nil success: ^(NSURLSessionDataTask *  task, id   responseObject){
-        NSDictionary *dictionary = (NSDictionary *)responseObject;
-        self.countriesArray = [Country coutryArrayFromJsonArray:dictionary[@"geonames"]];
-        
-        
-//         self.nominations = [OSNomination nominationsArrayFromJsonArray:json];
-       
-    } failure:^(NSURLSessionDataTask * task, NSError * error) {
-      
-        
-    }];
 
     
 }
@@ -44,6 +32,26 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
   }
+
+
+
+
+
+
+# pragma mark PickerView
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField{
+    
+    self.coutryTextField.inputView = self.picker;
+    
+    [ [AFHTTPSessionManager manager] GET:@"http://api.geonames.org/countryInfoJSON?username=bolmax" parameters:nil success: ^(NSURLSessionDataTask *  task, id   responseObject){
+        NSDictionary *dictionary = (NSDictionary *)responseObject;
+        self.countriesArray = [Country coutryArrayFromJsonArray:dictionary[@"geonames"]];
+    } failure:^(NSURLSessionDataTask * task, NSError * error) {
+
+    }];
+}
+
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
     return 1;
@@ -68,9 +76,3 @@
 
 
 
-//
-//
-//- (NSString*)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
-//    OSNomination *titleNomination = [self.nominations objectAtIndex:row];
-//    return titleNomination.title;
-//}

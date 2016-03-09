@@ -18,6 +18,8 @@
 		935DF6171C8F41A10062046A /* TripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF6161C8F41A10062046A /* TripTests.m */; };
 		935DF6251C8F58D40062046A /* ConfigureTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF6241C8F58D40062046A /* ConfigureTripViewController.m */; };
 		935DF6281C8F60120062046A /* TripListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF6271C8F60120062046A /* TripListController.m */; };
+		93DF3EA31C903D9100E8ADD5 /* SidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DF3EA21C903D9100E8ADD5 /* SidePanelController.m */; };
+		93DF3EA61C903EC700E8ADD5 /* JALeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DF3EA51C903EC700E8ADD5 /* JALeftViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,10 @@
 		935DF6241C8F58D40062046A /* ConfigureTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigureTripViewController.m; sourceTree = "<group>"; };
 		935DF6261C8F60120062046A /* TripListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripListController.h; sourceTree = "<group>"; };
 		935DF6271C8F60120062046A /* TripListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripListController.m; sourceTree = "<group>"; };
+		93DF3EA11C903D9100E8ADD5 /* SidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidePanelController.h; sourceTree = "<group>"; };
+		93DF3EA21C903D9100E8ADD5 /* SidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidePanelController.m; sourceTree = "<group>"; };
+		93DF3EA41C903EC700E8ADD5 /* JALeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JALeftViewController.h; sourceTree = "<group>"; };
+		93DF3EA51C903EC700E8ADD5 /* JALeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JALeftViewController.m; sourceTree = "<group>"; };
 		A7B8A70CD34547DB3FE1D5FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,10 +108,14 @@
 				935DF6011C8F41A10062046A /* ViewController.h */,
 				935DF6021C8F41A10062046A /* ViewController.m */,
 				935DF6041C8F41A10062046A /* Main.storyboard */,
+				93DF3EA41C903EC700E8ADD5 /* JALeftViewController.h */,
+				93DF3EA51C903EC700E8ADD5 /* JALeftViewController.m */,
 				935DF6261C8F60120062046A /* TripListController.h */,
 				935DF6271C8F60120062046A /* TripListController.m */,
 				935DF6231C8F58D40062046A /* ConfigureTripViewController.h */,
 				935DF6241C8F58D40062046A /* ConfigureTripViewController.m */,
+				93DF3EA11C903D9100E8ADD5 /* SidePanelController.h */,
+				93DF3EA21C903D9100E8ADD5 /* SidePanelController.m */,
 				930A0D661C8F7437000114E0 /* Country.h */,
 				930A0D671C8F7437000114E0 /* Country.m */,
 				935DF6071C8F41A10062046A /* Images.xcassets */,
@@ -315,6 +325,8 @@
 				935DF6281C8F60120062046A /* TripListController.m in Sources */,
 				930A0D681C8F7437000114E0 /* Country.m in Sources */,
 				935DF5FD1C8F41A10062046A /* main.m in Sources */,
+				93DF3EA61C903EC700E8ADD5 /* JALeftViewController.m in Sources */,
+				93DF3EA31C903D9100E8ADD5 /* SidePanelController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

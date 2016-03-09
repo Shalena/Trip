@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '27521387219871333453238E'
-               BlueprintName = 'MBProgressHUD'
+               BlueprintIdentifier = 'FB72026A5C2C96D87721D4AB'
+               BlueprintName = 'JASidePanels'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libMBProgressHUD.a'>
+               BuildableName = 'libJASidePanels.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
