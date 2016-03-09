@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5971976AB61978AD792EE992 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B8A70CD34547DB3FE1D5FA /* libPods.a */; };
+		930A0D681C8F7437000114E0 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 930A0D671C8F7437000114E0 /* Country.m */; };
 		935DF5FD1C8F41A10062046A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF5FC1C8F41A10062046A /* main.m */; };
 		935DF6001C8F41A10062046A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF5FF1C8F41A10062046A /* AppDelegate.m */; };
 		935DF6031C8F41A10062046A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF6021C8F41A10062046A /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		935DF6081C8F41A10062046A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935DF6071C8F41A10062046A /* Images.xcassets */; };
 		935DF60B1C8F41A10062046A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 935DF6091C8F41A10062046A /* LaunchScreen.xib */; };
 		935DF6171C8F41A10062046A /* TripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF6161C8F41A10062046A /* TripTests.m */; };
+		935DF6251C8F58D40062046A /* ConfigureTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF6241C8F58D40062046A /* ConfigureTripViewController.m */; };
+		935DF6281C8F60120062046A /* TripListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF6271C8F60120062046A /* TripListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0502F98DAC20F18D88AE6D48 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		45FBF0DF2BCFB8C079E70E4C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		930A0D661C8F7437000114E0 /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		930A0D671C8F7437000114E0 /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
 		935DF5F71C8F41A10062046A /* Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		935DF5FB1C8F41A10062046A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		935DF5FC1C8F41A10062046A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,11 @@
 		935DF6101C8F41A10062046A /* TripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		935DF6151C8F41A10062046A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		935DF6161C8F41A10062046A /* TripTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripTests.m; sourceTree = "<group>"; };
+		935DF6231C8F58D40062046A /* ConfigureTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigureTripViewController.h; sourceTree = "<group>"; };
+		935DF6241C8F58D40062046A /* ConfigureTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigureTripViewController.m; sourceTree = "<group>"; };
+		935DF6261C8F60120062046A /* TripListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripListController.h; sourceTree = "<group>"; };
+		935DF6271C8F60120062046A /* TripListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripListController.m; sourceTree = "<group>"; };
+		A7B8A70CD34547DB3FE1D5FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5971976AB61978AD792EE992 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +80,8 @@
 				935DF5F91C8F41A10062046A /* Trip */,
 				935DF6131C8F41A10062046A /* TripTests */,
 				935DF5F81C8F41A10062046A /* Products */,
+				E1A9C2C3BE1EF276C52D7556 /* Pods */,
+				B8383DD07102E017E879A279 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +102,12 @@
 				935DF6011C8F41A10062046A /* ViewController.h */,
 				935DF6021C8F41A10062046A /* ViewController.m */,
 				935DF6041C8F41A10062046A /* Main.storyboard */,
+				935DF6261C8F60120062046A /* TripListController.h */,
+				935DF6271C8F60120062046A /* TripListController.m */,
+				935DF6231C8F58D40062046A /* ConfigureTripViewController.h */,
+				935DF6241C8F58D40062046A /* ConfigureTripViewController.m */,
+				930A0D661C8F7437000114E0 /* Country.h */,
+				930A0D671C8F7437000114E0 /* Country.m */,
 				935DF6071C8F41A10062046A /* Images.xcassets */,
 				935DF6091C8F41A10062046A /* LaunchScreen.xib */,
 				935DF5FA1C8F41A10062046A /* Supporting Files */,
@@ -119,6 +141,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B8383DD07102E017E879A279 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7B8A70CD34547DB3FE1D5FA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1A9C2C3BE1EF276C52D7556 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0502F98DAC20F18D88AE6D48 /* Pods.debug.xcconfig */,
+				45FBF0DF2BCFB8C079E70E4C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 935DF61A1C8F41A10062046A /* Build configuration list for PBXNativeTarget "Trip" */;
 			buildPhases = (
+				4297004C45021871FB9821DE /* Check Pods Manifest.lock */,
 				935DF5F31C8F41A10062046A /* Sources */,
 				935DF5F41C8F41A10062046A /* Frameworks */,
 				935DF5F51C8F41A10062046A /* Resources */,
+				7F735D89643D13957C592CB2 /* Embed Pods Frameworks */,
+				5DCD0E6039B70E7E7707D56F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,13 +256,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4297004C45021871FB9821DE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCD0E6039B70E7E7707D56F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F735D89643D13957C592CB2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		935DF5F31C8F41A10062046A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				935DF6031C8F41A10062046A /* ViewController.m in Sources */,
+				935DF6251C8F58D40062046A /* ConfigureTripViewController.m in Sources */,
 				935DF6001C8F41A10062046A /* AppDelegate.m in Sources */,
+				935DF6281C8F60120062046A /* TripListController.m in Sources */,
+				930A0D681C8F7437000114E0 /* Country.m in Sources */,
 				935DF5FD1C8F41A10062046A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +438,7 @@
 		};
 		935DF61B1C8F41A10062046A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0502F98DAC20F18D88AE6D48 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Trip/Info.plist;
@@ -355,6 +449,7 @@
 		};
 		935DF61C1C8F41A10062046A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FBF0DF2BCFB8C079E70E4C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Trip/Info.plist;
@@ -416,6 +511,7 @@
 				935DF61C1C8F41A10062046A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		935DF61D1C8F41A10062046A /* Build configuration list for PBXNativeTarget "TripTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +520,7 @@
 				935DF61F1C8F41A10062046A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
