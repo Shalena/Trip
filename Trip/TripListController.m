@@ -31,16 +31,11 @@
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if ([segue.identifier isEqualToString:@"addTrip"]) {
         ConfigureTripViewController *controller = segue.destinationViewController;
- //      controller.delegate = self;
+
     }
 }
 
 
-//- (void)showLeftPanel {
-//    
-//    JALeftViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"JALeftViewController"];
-//    
-//}
 
 @end
 

@@ -71,6 +71,13 @@
     return countryName.coutryName;
 }
 
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
+    
+    Country *selectedCountry = [self.countriesArray objectAtIndex:row];
+    
+    self.coutryTextField.text = selectedCountry.coutryName;
+}
+
 
 // http://api.geonames.org/childrenJSON?geonameId=630336&username=bolmax
 
