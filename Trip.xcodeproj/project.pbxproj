@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5971976AB61978AD792EE992 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B8A70CD34547DB3FE1D5FA /* libPods.a */; };
 		930A0D681C8F7437000114E0 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 930A0D671C8F7437000114E0 /* Country.m */; };
+		9329BA141CB18AF900323405 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 9329BA131CB18AF900323405 /* Trip.m */; };
+		93573C7E1CB4544A002AF68D /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 93573C7D1CB4544A002AF68D /* City.m */; };
 		935DF5FD1C8F41A10062046A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF5FC1C8F41A10062046A /* main.m */; };
 		935DF6001C8F41A10062046A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF5FF1C8F41A10062046A /* AppDelegate.m */; };
 		935DF6031C8F41A10062046A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF6021C8F41A10062046A /* ViewController.m */; };
@@ -37,6 +39,10 @@
 		45FBF0DF2BCFB8C079E70E4C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		930A0D661C8F7437000114E0 /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
 		930A0D671C8F7437000114E0 /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		9329BA121CB18AF900323405 /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
+		9329BA131CB18AF900323405 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
+		93573C7C1CB4544A002AF68D /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		93573C7D1CB4544A002AF68D /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
 		935DF5F71C8F41A10062046A /* Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		935DF5FB1C8F41A10062046A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		935DF5FC1C8F41A10062046A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,6 +114,8 @@
 				935DF6011C8F41A10062046A /* ViewController.h */,
 				935DF6021C8F41A10062046A /* ViewController.m */,
 				935DF6041C8F41A10062046A /* Main.storyboard */,
+				9329BA121CB18AF900323405 /* Trip.h */,
+				9329BA131CB18AF900323405 /* Trip.m */,
 				93DF3EA41C903EC700E8ADD5 /* JALeftViewController.h */,
 				93DF3EA51C903EC700E8ADD5 /* JALeftViewController.m */,
 				935DF6261C8F60120062046A /* TripListController.h */,
@@ -118,6 +126,8 @@
 				93DF3EA21C903D9100E8ADD5 /* SidePanelController.m */,
 				930A0D661C8F7437000114E0 /* Country.h */,
 				930A0D671C8F7437000114E0 /* Country.m */,
+				93573C7C1CB4544A002AF68D /* City.h */,
+				93573C7D1CB4544A002AF68D /* City.m */,
 				935DF6071C8F41A10062046A /* Images.xcassets */,
 				935DF6091C8F41A10062046A /* LaunchScreen.xib */,
 				935DF5FA1C8F41A10062046A /* Supporting Files */,
@@ -319,6 +329,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93573C7E1CB4544A002AF68D /* City.m in Sources */,
+				9329BA141CB18AF900323405 /* Trip.m in Sources */,
 				935DF6031C8F41A10062046A /* ViewController.m in Sources */,
 				935DF6251C8F58D40062046A /* ConfigureTripViewController.m in Sources */,
 				935DF6001C8F41A10062046A /* AppDelegate.m in Sources */,

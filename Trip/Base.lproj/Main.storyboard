@@ -28,9 +28,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="DTk-nX-nuQ" kind="presentation" id="B9I-CN-Ny9"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="fzx-b7-oJ1">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -45,9 +42,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="B6y-yz-X9X" kind="presentation" id="wlB-IA-tUy"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="hbS-7J-heY">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -97,7 +91,11 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="mAK-7P-WpI">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="zcl-wj-VJs"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="zcl-wj-VJs">
+                            <connections>
+                                <segue destination="B6y-yz-X9X" kind="show" id="vwK-d3-cWG"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -129,7 +127,7 @@
         <!--Configure Trip View Controller-->
         <scene sceneID="0hh-Cr-bdk">
             <objects>
-                <viewController id="B6y-yz-X9X" customClass="ConfigureTripViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ConfigureTripViewController" id="B6y-yz-X9X" customClass="ConfigureTripViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XWr-Ds-zD7"/>
                         <viewControllerLayoutGuide type="bottom" id="dNl-vl-lZZ"/>
@@ -138,11 +136,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gm8-nH-OlP">
-                                <rect key="frame" x="69" y="217" width="477" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lpv-7s-Zmb">
                                 <rect key="frame" x="69" y="304" width="477" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -155,6 +148,9 @@
                                     <color key="titleColor" red="1" green="0.9544524979758171" blue="0.029603571795189798" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="saveButtonAction:" destination="B6y-yz-X9X" eventType="touchUpInside" id="ixu-D6-zZH"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Country" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZTM-DR-shc">
                                 <rect key="frame" x="69" y="142" width="477" height="30"/>
@@ -162,6 +158,14 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="B6y-yz-X9X" id="mmE-DM-CCf"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gm8-nH-OlP">
+                                <rect key="frame" x="69" y="217" width="477" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="B6y-yz-X9X" id="7DC-DQ-Bxb"/>
                                 </connections>
                             </textField>
                         </subviews>
@@ -173,7 +177,8 @@
                         <outlet property="cityTextField" destination="Gm8-nH-OlP" id="2cg-0z-9ke"/>
                         <outlet property="coutryTextField" destination="ZTM-DR-shc" id="kK6-Gu-lPO"/>
                         <outlet property="dateTextField" destination="Lpv-7s-Zmb" id="tSJ-i8-S93"/>
-                        <outlet property="picker" destination="CES-ds-D6W" id="SuJ-WK-QPc"/>
+                        <outlet property="pickerCity" destination="RTm-HM-X14" id="wNJ-de-39f"/>
+                        <outlet property="pickerCountry" destination="CES-ds-D6W" id="ebY-pf-QiE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SRj-dD-6UJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -183,6 +188,14 @@
                     <connections>
                         <outlet property="dataSource" destination="B6y-yz-X9X" id="CLd-gA-VXl"/>
                         <outlet property="delegate" destination="B6y-yz-X9X" id="eVB-Uv-oAW"/>
+                    </connections>
+                </pickerView>
+                <pickerView contentMode="scaleToFill" id="RTm-HM-X14">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="162"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="dataSource" destination="B6y-yz-X9X" id="1vX-uj-AfV"/>
+                        <outlet property="delegate" destination="B6y-yz-X9X" id="yFy-De-iRI"/>
                     </connections>
                 </pickerView>
             </objects>
