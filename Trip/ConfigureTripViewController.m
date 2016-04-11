@@ -10,6 +10,7 @@
 #import <AFNetworking.h>
 #import "Country.h"
 #import "City.h"
+#import "Trip.h"
 
 @interface ConfigureTripViewController () <UIPickerViewDataSource,UIPickerViewDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *coutryTextField;
@@ -19,6 +20,8 @@
 @property (strong, nonatomic) IBOutlet UIPickerView *pickerCity;
 @property (strong, nonatomic) NSArray *countriesArray;
 @property (strong, nonatomic) NSArray *citiesArray;
+@property (strong, nonatomic) Country *selectedCountry;
+@property (strong, nonatomic) City *selectedCity;
 
 @end
 
@@ -59,7 +62,11 @@
     } else if (textField == self.cityTextField){
     
         self.cityTextField.inputView=self.pickerCity;
-        [ [AFHTTPSessionManager manager] GET:@"http://api.geonames.org/childrenJSON?geonameId=630336&username=bolmax" parameters:nil success: ^(NSURLSessionDataTask *  task, id   responseObject){
+        
+        
+        
+        NSString *cityUrlString = [NSString stringWithFormat:@"http://api.geonames.org/childrenJSON?geonameId=%@&username=bolmax",self.selectedCountry.geonameId];
+        [ [AFHTTPSessionManager manager] GET:cityUrlString parameters:nil success: ^(NSURLSessionDataTask *  task, id   responseObject){
             
             NSDictionary *dictionaryCity = (NSDictionary *)responseObject;
             self.citiesArray = [City cityArrayFromJsonArray:dictionaryCity[@"geonames"]];
@@ -98,12 +105,15 @@
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
      if (pickerView == self.pickerCountry){
     
-    Country *selectedCountry = [self.countriesArray objectAtIndex:row];
-    self.coutryTextField.text = selectedCountry.coutryName;
+    self.selectedCountry = [self.countriesArray objectAtIndex:row];
+    self.coutryTextField.text = self.selectedCountry.coutryName;
+    self.selectedCity = nil;
+    self.cityTextField.text = nil;
      } else if   (pickerView == self.pickerCity){
          
-         City *selectedCity = [self.citiesArray objectAtIndex:row];
-         self.cityTextField.text = selectedCity.cityName;
+         self.selectedCity = [self.citiesArray objectAtIndex:row];
+         self.cityTextField.text = self.selectedCity.cityName;
+         
      }
 }
 
@@ -112,43 +122,17 @@
 
 
 - (IBAction)saveButtonAction:(id)sender {
+    Trip *trip = [Trip new];
+    trip.country = self.selectedCountry;
+    trip.city = self.selectedCity;
+    
+    if ([self.delegate respondsToSelector:@selector(configureTripViewControllerDidCreateTrip:)]) {
+      [self.delegate configureTripViewControllerDidCreateTrip:trip];
+    }
+
+    [self.navigationController popViewControllerAnimated:YES];
     
 }
-
-
-
-
-
-
-
-
-//- (IBAction)saveButtonAction:(id)sender {
-//    
-//    
-//    OSNominees *nominee = self.nominee;
-//    
-//    if (!self.nominee) {
-//        nominee = [OSNominees new];
-//    }
-//    
-//    nominee.title = self.titleTextField.text;
-//    nominee.company = self.companyTextField.text;
-//    nominee.detail = self.detailTextField.text;
-//    
-//    if ([self.delegate respondsToSelector:@selector(addNomineeControllerDidCreateNominee:)] && !self.currentNominee) {
-//        [self.delegate addNomineeControllerDidCreateNominee:nominee];
-//    } else if([self.delegate respondsToSelector:@selector(addNomineeControllerDidUpdateNominee)]){
-//        [self.delegate addNomineeControllerDidUpdateNominee];
-//    }
-//    
-//    [self dismissViewControllerAnimated:YES completion:nil];
-//}
-//
-//
-
-
-
-
 
 
 

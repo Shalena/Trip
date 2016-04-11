@@ -8,10 +8,11 @@
 
 #import <Foundation/Foundation.h>
 @class Country;
+@class City;
 
 @interface Trip : NSObject
 @property (strong, nonatomic) Country *country;
-@property (strong, nonatomic) NSString *city;
+@property (strong, nonatomic) City *city;
 
 @end
 

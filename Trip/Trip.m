@@ -8,6 +8,8 @@
 
 #import "Trip.h"
 #import "Country.h"
+#import "City.h"
+
 
 @implementation Trip
 
