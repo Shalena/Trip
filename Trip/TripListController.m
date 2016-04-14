@@ -7,6 +7,7 @@
 //
 
 #import "TripListController.h"
+#import "TripCellTableViewCell.h"
 #import "ConfigureTripViewController.h"
 #import "Trip.h"
 #import "Country.h"
@@ -55,9 +56,22 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-   Trip  * trip = self.tripsArray[indexPath.row];
-    cell.textLabel.text = trip.country.coutryName;
-    cell.detailTextLabel.text = trip.city.cityName;
+   Trip  *trip = self.tripsArray[indexPath.row];
+    [cell configureWithTrips:trip];
+    return cell;
+    
+    
+    
+    
+//    - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+//    {
+//        OSNomineesTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"nomineesCell"];
+//        OSNominees *nominees = self.filteredArray[indexPath.row];
+//        
+//        [cell configureWithNominees:nominees];
+//        return cell;
+//    }
+//    
     
     
     
@@ -68,16 +82,3 @@
 
 
 
-
-//self.nomination.nominees = [self.nomination.nominees arrayByAddingObject:nominee];
-
-
-
-//- (void)addNomineeControllerDidCreateNominee:(OSNominees*)nominee{
-//    self.nomination.nominees = [self.nomination.nominees arrayByAddingObject:nominee];
-//    [self.tableView reloadData];
-//}
-//
-//- (void)addNomineeControllerDidUpdateNominee {
-//    [self.tableView reloadData];
-//}

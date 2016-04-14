@@ -10,7 +10,7 @@
 
 @interface Country : NSObject
 @property (copy, nonatomic) NSNumber * geonameId;
-@property (copy, nonatomic) NSString * coutryName;
-+ (NSArray *)coutryArrayFromJsonArray:(NSArray *)array;
+@property (copy, nonatomic) NSString * countryName;
++ (NSArray *)countryArrayFromJsonArray:(NSArray *)array;
 
 @end

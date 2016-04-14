@@ -11,6 +11,7 @@
 		930A0D681C8F7437000114E0 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 930A0D671C8F7437000114E0 /* Country.m */; };
 		9329BA141CB18AF900323405 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 9329BA131CB18AF900323405 /* Trip.m */; };
 		93573C7E1CB4544A002AF68D /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 93573C7D1CB4544A002AF68D /* City.m */; };
+		9358F4491CBD6C3A00FD40CF /* TripCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9358F4481CBD6C3A00FD40CF /* TripCellTableViewCell.m */; };
 		935DF5FD1C8F41A10062046A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF5FC1C8F41A10062046A /* main.m */; };
 		935DF6001C8F41A10062046A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF5FF1C8F41A10062046A /* AppDelegate.m */; };
 		935DF6031C8F41A10062046A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF6021C8F41A10062046A /* ViewController.m */; };
@@ -43,6 +44,8 @@
 		9329BA131CB18AF900323405 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
 		93573C7C1CB4544A002AF68D /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
 		93573C7D1CB4544A002AF68D /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		9358F4471CBD6C3A00FD40CF /* TripCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripCellTableViewCell.h; sourceTree = "<group>"; };
+		9358F4481CBD6C3A00FD40CF /* TripCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripCellTableViewCell.m; sourceTree = "<group>"; };
 		935DF5F71C8F41A10062046A /* Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		935DF5FB1C8F41A10062046A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		935DF5FC1C8F41A10062046A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 				935DF6011C8F41A10062046A /* ViewController.h */,
 				935DF6021C8F41A10062046A /* ViewController.m */,
 				935DF6041C8F41A10062046A /* Main.storyboard */,
+				9358F4471CBD6C3A00FD40CF /* TripCellTableViewCell.h */,
+				9358F4481CBD6C3A00FD40CF /* TripCellTableViewCell.m */,
 				9329BA121CB18AF900323405 /* Trip.h */,
 				9329BA131CB18AF900323405 /* Trip.m */,
 				93DF3EA41C903EC700E8ADD5 /* JALeftViewController.h */,
@@ -336,6 +341,7 @@
 				935DF6001C8F41A10062046A /* AppDelegate.m in Sources */,
 				935DF6281C8F60120062046A /* TripListController.m in Sources */,
 				930A0D681C8F7437000114E0 /* Country.m in Sources */,
+				9358F4491CBD6C3A00FD40CF /* TripCellTableViewCell.m in Sources */,
 				935DF5FD1C8F41A10062046A /* main.m in Sources */,
 				93DF3EA61C903EC700E8ADD5 /* JALeftViewController.m in Sources */,
 				93DF3EA31C903D9100E8ADD5 /* SidePanelController.m in Sources */,

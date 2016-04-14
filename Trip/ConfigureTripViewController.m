@@ -13,7 +13,7 @@
 #import "Trip.h"
 
 @interface ConfigureTripViewController () <UIPickerViewDataSource,UIPickerViewDelegate>
-@property (weak, nonatomic) IBOutlet UITextField *coutryTextField;
+@property (weak, nonatomic) IBOutlet UITextField *countryTextField;
 @property (weak, nonatomic) IBOutlet UITextField *cityTextField;
 @property (weak, nonatomic) IBOutlet UITextField *dateTextField;
 @property (strong, nonatomic) IBOutlet UIPickerView *pickerCountry;
@@ -47,14 +47,14 @@
 # pragma mark PickerView
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField{
-    if (textField == self.coutryTextField){
-    self.coutryTextField.inputView = self.pickerCountry;
+    if (textField == self.countryTextField){
+    self.countryTextField.inputView = self.pickerCountry;
  
     
     [ [AFHTTPSessionManager manager] GET:@"http://api.geonames.org/countryInfoJSON?username=bolmax" parameters:nil success: ^(NSURLSessionDataTask *  task, id   responseObject){
         
         NSDictionary *dictionary = (NSDictionary *)responseObject;
-        self.countriesArray = [Country coutryArrayFromJsonArray:dictionary[@"geonames"]];
+        self.countriesArray = [Country countryArrayFromJsonArray:dictionary[@"geonames"]];
         [self.pickerCountry reloadAllComponents];
     } failure:^(NSURLSessionDataTask * task, NSError * error) {
 
@@ -94,7 +94,7 @@
 - (NSString*)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
     if (pickerView == self.pickerCountry){
     Country *countryName = [self.countriesArray objectAtIndex:row];
-    return countryName.coutryName;
+    return countryName.countryName;
     } else if (pickerView == self.pickerCity){
         City *cityName = [self.citiesArray objectAtIndex:row];
         return cityName.cityName;
@@ -106,7 +106,7 @@
      if (pickerView == self.pickerCountry){
     
     self.selectedCountry = [self.countriesArray objectAtIndex:row];
-    self.coutryTextField.text = self.selectedCountry.coutryName;
+    self.countryTextField.text = self.selectedCountry.countryName;
     self.selectedCity = nil;
     self.cityTextField.text = nil;
      } else if   (pickerView == self.pickerCity){

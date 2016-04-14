@@ -9,12 +9,12 @@
 #import "Country.h"
 
 @implementation Country
-+ (NSArray *)coutryArrayFromJsonArray:(NSArray *)array{
++ (NSArray *)countryArrayFromJsonArray:(NSArray *)array{
     NSMutableArray *result = [NSMutableArray array];
     
     for (NSDictionary *dictionary in array) {
         Country * country = [Country new];
-        country.coutryName = dictionary [@"countryName"];
+        country.countryName = dictionary [@"countryName"];
         country.geonameId = dictionary [@"geonameId"];
         
         
