@@ -14,7 +14,7 @@
 
 @interface TripCellTableViewCell : UITableViewCell
 
-- (void)configureWithTrips:(Trip*)trips;
+- (void)configureWithTrips:(Trip*)trip;
 @end
 
 

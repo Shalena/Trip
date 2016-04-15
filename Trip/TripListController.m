@@ -14,6 +14,7 @@
 #import "City.h"
 
 @interface TripListController () <ConfigureViewControllerDelegate>
+//@interface NominationListViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *addButton;
 @property (strong,nonatomic) NSMutableArray *tripsArray;
 
@@ -55,7 +56,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+   TripCellTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
    Trip  *trip = self.tripsArray[indexPath.row];
     [cell configureWithTrips:trip];
     return cell;

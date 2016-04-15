@@ -8,6 +8,9 @@
 
 #import "TripCellTableViewCell.h"
 #import "Trip.h"
+#import "Country.h"
+#import "City.h"
+
 
 @interface TripCellTableViewCell()
 
