@@ -8,9 +8,10 @@
 
 #import "ConfigureTripViewController.h"
 #import <AFNetworking.h>
-#import "Country.h"
-#import "City.h"
 #import "Trip.h"
+#import "City+Serialization.h"
+#import "Country+Serialization.h"
+#import "Trip+Serialization.h"
 
 @interface ConfigureTripViewController () <UIPickerViewDataSource,UIPickerViewDelegate>
 
@@ -75,7 +76,7 @@
         return countryName.countryName;
     } else if (pickerView == self.pickerCity){
         City *cityName = [self.citiesArray objectAtIndex:row];
-        return cityName.cityName;
+        return cityName.name;
     }
     else return nil;
 }
@@ -88,14 +89,12 @@
         self.cityTextField.text = nil;
      } else if (pickerView == self.pickerCity){
          self.selectedCity = [self.citiesArray objectAtIndex:row];
-         self.cityTextField.text = self.selectedCity.cityName;
+         self.cityTextField.text = self.selectedCity.name;
      }
 }
 
 - (IBAction)saveButtonAction:(id)sender {
-    Trip *trip = [Trip new];
-    trip.country = self.selectedCountry;
-    trip.city = self.selectedCity;
+    Trip *trip = [Trip tripWithCountry:self.selectedCountry city:self.selectedCity];
     
     if ([self.delegate respondsToSelector:@selector(configureTripViewControllerDidCreateTrip:)]) {
         [self.delegate configureTripViewControllerDidCreateTrip:trip];

@@ -12,6 +12,7 @@
 #import "Trip.h"
 #import "Country.h"
 #import "City.h"
+#import "Trip+FetchRequests.h"
 
 @interface TripListController () <ConfigureViewControllerDelegate>
 
@@ -24,7 +25,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.tripsArray = [NSMutableArray array];
+    self.tripsArray = [Trip getAllTrips].mutableCopy;
+
 }
 
 - (void)didReceiveMemoryWarning {

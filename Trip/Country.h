@@ -2,17 +2,23 @@
 //  Country.h
 //  Trip
 //
-//  Created by shustreek on 08.03.16.
-//  Copyright (c) 2016 shustreek. All rights reserved.
+//  Created by helena on 24.04.16.
+//  Copyright © 2016 shustreek. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
-@interface Country : NSObject
+@class Trip;
 
-@property (copy, nonatomic) NSNumber * geonameId;
-@property (copy, nonatomic) NSString * countryName;
+NS_ASSUME_NONNULL_BEGIN
 
-+ (NSArray *)countryArrayFromJsonArray:(NSArray *)array;
+@interface Country : NSManagedObject
+
+// Insert code here to declare functionality of your managed object subclass
 
 @end
+
+NS_ASSUME_NONNULL_END
+
+#import "Country+CoreDataProperties.h"

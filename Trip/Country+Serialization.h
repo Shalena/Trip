@@ -1,5 +1,5 @@
 //
-//  Country.m
+//  Country+Serialization.h
 //  Trip
 //
 //  Created by helena on 24.04.16.
@@ -7,10 +7,9 @@
 //
 
 #import "Country.h"
-#import "Trip.h"
 
-@implementation Country
+@interface Country (Serialization)
 
-// Insert code here to add functionality to your managed object subclass
++ (NSArray *)countryArrayFromJsonArray:(NSArray *)array;
 
 @end

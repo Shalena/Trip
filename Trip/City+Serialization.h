@@ -1,5 +1,5 @@
 //
-//  City.m
+//  City+Serialization.h
 //  Trip
 //
 //  Created by helena on 24.04.16.
@@ -7,10 +7,7 @@
 //
 
 #import "City.h"
-#import "Trip.h"
 
-@implementation City
-
-// Insert code here to add functionality to your managed object subclass
-
+@interface City (Serialization)
++ (NSArray *)cityArrayFromJsonArray:(NSArray *)array;
 @end

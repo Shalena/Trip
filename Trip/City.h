@@ -2,16 +2,23 @@
 //  City.h
 //  Trip
 //
-//  Created by shustreek on 05.04.16.
-//  Copyright (c) 2016 shustreek. All rights reserved.
+//  Created by helena on 24.04.16.
+//  Copyright © 2016 shustreek. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
-@interface City : NSObject
+@class Trip;
 
-@property (copy, nonatomic) NSString * cityName;
+NS_ASSUME_NONNULL_BEGIN
 
-+ (NSArray *)cityArrayFromJsonArray:(NSArray *)array;
+@interface City : NSManagedObject
+
+// Insert code here to declare functionality of your managed object subclass
 
 @end
+
+NS_ASSUME_NONNULL_END
+
+#import "City+CoreDataProperties.h"

@@ -1,15 +1,17 @@
 //
-//  myTrip.m
+//  Trip.m
 //  Trip
 //
-//  Created by shustreek on 03.04.16.
-//  Copyright (c) 2016 shustreek. All rights reserved.
+//  Created by helena on 24.04.16.
+//  Copyright © 2016 shustreek. All rights reserved.
 //
 
 #import "Trip.h"
-#import "Country.h"
 #import "City.h"
+#import "Country.h"
 
 @implementation Trip
+
+// Insert code here to add functionality to your managed object subclass
 
 @end

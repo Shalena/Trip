@@ -1,20 +1,24 @@
 //
-//  myTrip.h
+//  Trip.h
 //  Trip
 //
-//  Created by shustreek on 03.04.16.
-//  Copyright (c) 2016 shustreek. All rights reserved.
+//  Created by helena on 24.04.16.
+//  Copyright © 2016 shustreek. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-@class Country;
-@class City;
+#import <CoreData/CoreData.h>
 
-@interface Trip : NSObject
+@class City, Country;
 
-@property (strong, nonatomic) Country *country;
-@property (strong, nonatomic) City *city;
+NS_ASSUME_NONNULL_BEGIN
+
+@interface Trip : NSManagedObject
+
+// Insert code here to declare functionality of your managed object subclass
 
 @end
 
+NS_ASSUME_NONNULL_END
 
+#import "Trip+CoreDataProperties.h"

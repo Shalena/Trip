@@ -23,7 +23,7 @@
 
 - (void)configureWithTrips:(Trip*)trip {
     self.countryLabel.text = trip.country.countryName;
-    self.cityLabel.text = trip.city.cityName;
+    self.cityLabel.text = trip.city.name;
 
 }
 
