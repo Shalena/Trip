@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface City : NSObject
+
 @property (copy, nonatomic) NSString * cityName;
+
 + (NSArray *)cityArrayFromJsonArray:(NSArray *)array;
+
 @end

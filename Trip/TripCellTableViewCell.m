@@ -11,7 +11,6 @@
 #import "Country.h"
 #import "City.h"
 
-
 @interface TripCellTableViewCell()
 
 @property (weak, nonatomic) IBOutlet UILabel *countryLabel;
@@ -21,20 +20,10 @@
 @end
 
 @implementation TripCellTableViewCell
+
 - (void)configureWithTrips:(Trip*)trip {
     self.countryLabel.text = trip.country.countryName;
     self.cityLabel.text = trip.city.cityName;
-
-}
-
-
-
-- (void)awakeFromNib {
-    // Initialization code
-}
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
 
 }
 

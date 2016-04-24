@@ -9,8 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Country : NSObject
+
 @property (copy, nonatomic) NSNumber * geonameId;
 @property (copy, nonatomic) NSString * countryName;
+
 + (NSArray *)countryArrayFromJsonArray:(NSArray *)array;
 
 @end

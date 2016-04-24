@@ -14,18 +14,7 @@
 
 @implementation SidePanelController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
--(void) awakeFromNib
-{
+- (void)awakeFromNib {
     [self setLeftPanel:[self.storyboard instantiateViewControllerWithIdentifier:@"JALeftViewController"]];
     [self setCenterPanel:[self.storyboard instantiateViewControllerWithIdentifier:@"CenterPanel"]];
 }

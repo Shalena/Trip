@@ -10,11 +10,6 @@
 #import "Country.h"
 #import "City.h"
 
-
 @implementation Trip
 
-+ (NSArray *)createArrayOfMyTrips:(NSArray *)array {
-NSMutableArray *arrayOfMyTrips = [NSMutableArray array];
-    return arrayOfMyTrips;
-}
 @end

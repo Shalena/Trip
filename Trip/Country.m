@@ -17,13 +17,9 @@
         country.countryName = dictionary [@"countryName"];
         country.geonameId = dictionary [@"geonameId"];
         
-        
-       [result addObject:country];
+        [result addObject:country];
     }
-    
     return result;
 }
-
-
 
 @end

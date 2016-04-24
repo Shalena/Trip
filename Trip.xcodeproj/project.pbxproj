@@ -14,7 +14,6 @@
 		9358F4491CBD6C3A00FD40CF /* TripCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9358F4481CBD6C3A00FD40CF /* TripCellTableViewCell.m */; };
 		935DF5FD1C8F41A10062046A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF5FC1C8F41A10062046A /* main.m */; };
 		935DF6001C8F41A10062046A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF5FF1C8F41A10062046A /* AppDelegate.m */; };
-		935DF6031C8F41A10062046A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF6021C8F41A10062046A /* ViewController.m */; };
 		935DF6061C8F41A10062046A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935DF6041C8F41A10062046A /* Main.storyboard */; };
 		935DF6081C8F41A10062046A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935DF6071C8F41A10062046A /* Images.xcassets */; };
 		935DF60B1C8F41A10062046A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 935DF6091C8F41A10062046A /* LaunchScreen.xib */; };
@@ -51,8 +50,6 @@
 		935DF5FC1C8F41A10062046A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		935DF5FE1C8F41A10062046A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		935DF5FF1C8F41A10062046A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		935DF6011C8F41A10062046A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		935DF6021C8F41A10062046A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		935DF6051C8F41A10062046A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		935DF6071C8F41A10062046A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		935DF60A1C8F41A10062046A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -114,8 +111,6 @@
 			children = (
 				935DF5FE1C8F41A10062046A /* AppDelegate.h */,
 				935DF5FF1C8F41A10062046A /* AppDelegate.m */,
-				935DF6011C8F41A10062046A /* ViewController.h */,
-				935DF6021C8F41A10062046A /* ViewController.m */,
 				935DF6041C8F41A10062046A /* Main.storyboard */,
 				9358F4471CBD6C3A00FD40CF /* TripCellTableViewCell.h */,
 				9358F4481CBD6C3A00FD40CF /* TripCellTableViewCell.m */,
@@ -336,7 +331,6 @@
 			files = (
 				93573C7E1CB4544A002AF68D /* City.m in Sources */,
 				9329BA141CB18AF900323405 /* Trip.m in Sources */,
-				935DF6031C8F41A10062046A /* ViewController.m in Sources */,
 				935DF6251C8F58D40062046A /* ConfigureTripViewController.m in Sources */,
 				935DF6001C8F41A10062046A /* AppDelegate.m in Sources */,
 				935DF6281C8F60120062046A /* TripListController.m in Sources */,

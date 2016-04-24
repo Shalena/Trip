@@ -7,22 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
 #import "Trip.h"
-
-
 
 @interface TripCellTableViewCell : UITableViewCell
 
 - (void)configureWithTrips:(Trip*)trip;
+
 @end
 
 
-
-//#import <UIKit/UIKit.h>
-//#import "OSNominees.h"
-//
-//@interface OSNomineesTableViewCell : UITableViewCell
-//- (void)configureWithNominees:(OSNominees *)nominees;
-//@end
-//

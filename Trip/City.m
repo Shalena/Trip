@@ -9,6 +9,7 @@
 #import "City.h"
 
 @implementation City
+
 + (NSArray *)cityArrayFromJsonArray:(NSArray *)array{
     NSMutableArray *result = [NSMutableArray array];
     
@@ -16,14 +17,10 @@
         City * city = [City new];
         city.cityName = dictionary [@"name"];
         
-        
         [result addObject:city];
     }
-    
     return result;
 }
-
-
 
 @end
 

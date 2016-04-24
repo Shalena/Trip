@@ -11,6 +11,7 @@
 @class City;
 
 @interface Trip : NSObject
+
 @property (strong, nonatomic) Country *country;
 @property (strong, nonatomic) City *city;
 
