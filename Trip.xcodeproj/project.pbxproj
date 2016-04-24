@@ -8,29 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		5971976AB61978AD792EE992 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B8A70CD34547DB3FE1D5FA /* libPods.a */; };
-		7927A7B31CCD2DC2000C4275 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7B21CCD2DC2000C4275 /* CoreDataStack.m */; };
 		7927A7B61CCD33C9000C4275 /* Trip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7B41CCD33C9000C4275 /* Trip.xcdatamodeld */; };
-		7927A7CC1CCD376D000C4275 /* Country+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7C11CCD376D000C4275 /* Country+CoreDataProperties.m */; };
-		7927A7CD1CCD376D000C4275 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7C31CCD376D000C4275 /* Country.m */; };
-		7927A7CE1CCD376D000C4275 /* City+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7C51CCD376D000C4275 /* City+CoreDataProperties.m */; };
-		7927A7CF1CCD376D000C4275 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7C71CCD376D000C4275 /* City.m */; };
-		7927A7D01CCD376D000C4275 /* Trip+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7C91CCD376D000C4275 /* Trip+CoreDataProperties.m */; };
-		7927A7D11CCD376D000C4275 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7CB1CCD376D000C4275 /* Trip.m */; };
-		7927A7D41CCD38A7000C4275 /* Trip+Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7D31CCD38A7000C4275 /* Trip+Serialization.m */; };
-		7927A7D71CCD38E9000C4275 /* City+Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7D61CCD38E9000C4275 /* City+Serialization.m */; };
-		7927A7DA1CCD38FB000C4275 /* Country+Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7D91CCD38FB000C4275 /* Country+Serialization.m */; };
-		7927A7DD1CCD4536000C4275 /* Trip+FetchRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7DC1CCD4536000C4275 /* Trip+FetchRequests.m */; };
-		9358F4491CBD6C3A00FD40CF /* TripCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9358F4481CBD6C3A00FD40CF /* TripCellTableViewCell.m */; };
+		7927A80D1CCD4B48000C4275 /* ConfigureTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7E81CCD4B48000C4275 /* ConfigureTripViewController.m */; };
+		7927A80E1CCD4B48000C4275 /* JALeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7EA1CCD4B48000C4275 /* JALeftViewController.m */; };
+		7927A80F1CCD4B48000C4275 /* SidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7EC1CCD4B48000C4275 /* SidePanelController.m */; };
+		7927A8101CCD4B48000C4275 /* TripListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7EE1CCD4B48000C4275 /* TripListController.m */; };
+		7927A8111CCD4B48000C4275 /* City+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7F21CCD4B48000C4275 /* City+CoreDataProperties.m */; };
+		7927A8121CCD4B48000C4275 /* City+Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7F41CCD4B48000C4275 /* City+Serialization.m */; };
+		7927A8131CCD4B48000C4275 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7F61CCD4B48000C4275 /* City.m */; };
+		7927A8141CCD4B48000C4275 /* Country+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7F91CCD4B48000C4275 /* Country+CoreDataProperties.m */; };
+		7927A8151CCD4B48000C4275 /* Country+Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7FB1CCD4B48000C4275 /* Country+Serialization.m */; };
+		7927A8161CCD4B48000C4275 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A7FD1CCD4B48000C4275 /* Country.m */; };
+		7927A8171CCD4B48000C4275 /* Trip+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A8001CCD4B48000C4275 /* Trip+CoreDataProperties.m */; };
+		7927A8181CCD4B48000C4275 /* Trip+FetchRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A8021CCD4B48000C4275 /* Trip+FetchRequests.m */; };
+		7927A8191CCD4B48000C4275 /* Trip+Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A8041CCD4B48000C4275 /* Trip+Serialization.m */; };
+		7927A81A1CCD4B48000C4275 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A8061CCD4B48000C4275 /* Trip.m */; };
+		7927A81B1CCD4B48000C4275 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A8091CCD4B48000C4275 /* CoreDataStack.m */; };
+		7927A81C1CCD4B48000C4275 /* TripCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927A80C1CCD4B48000C4275 /* TripCellTableViewCell.m */; };
 		935DF5FD1C8F41A10062046A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF5FC1C8F41A10062046A /* main.m */; };
 		935DF6001C8F41A10062046A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF5FF1C8F41A10062046A /* AppDelegate.m */; };
 		935DF6061C8F41A10062046A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935DF6041C8F41A10062046A /* Main.storyboard */; };
 		935DF6081C8F41A10062046A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935DF6071C8F41A10062046A /* Images.xcassets */; };
 		935DF60B1C8F41A10062046A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 935DF6091C8F41A10062046A /* LaunchScreen.xib */; };
 		935DF6171C8F41A10062046A /* TripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF6161C8F41A10062046A /* TripTests.m */; };
-		935DF6251C8F58D40062046A /* ConfigureTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF6241C8F58D40062046A /* ConfigureTripViewController.m */; };
-		935DF6281C8F60120062046A /* TripListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DF6271C8F60120062046A /* TripListController.m */; };
-		93DF3EA31C903D9100E8ADD5 /* SidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DF3EA21C903D9100E8ADD5 /* SidePanelController.m */; };
-		93DF3EA61C903EC700E8ADD5 /* JALeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DF3EA51C903EC700E8ADD5 /* JALeftViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,31 +46,39 @@
 /* Begin PBXFileReference section */
 		0502F98DAC20F18D88AE6D48 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		45FBF0DF2BCFB8C079E70E4C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		7927A7B11CCD2DC2000C4275 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
-		7927A7B21CCD2DC2000C4275 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
 		7927A7B51CCD33C9000C4275 /* Trip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trip.xcdatamodel; sourceTree = "<group>"; };
-		7927A7C01CCD376D000C4275 /* Country+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Country+CoreDataProperties.h"; sourceTree = "<group>"; };
-		7927A7C11CCD376D000C4275 /* Country+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Country+CoreDataProperties.m"; sourceTree = "<group>"; };
-		7927A7C21CCD376D000C4275 /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
-		7927A7C31CCD376D000C4275 /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
-		7927A7C41CCD376D000C4275 /* City+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "City+CoreDataProperties.h"; sourceTree = "<group>"; };
-		7927A7C51CCD376D000C4275 /* City+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "City+CoreDataProperties.m"; sourceTree = "<group>"; };
-		7927A7C61CCD376D000C4275 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
-		7927A7C71CCD376D000C4275 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
-		7927A7C81CCD376D000C4275 /* Trip+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Trip+CoreDataProperties.h"; sourceTree = "<group>"; };
-		7927A7C91CCD376D000C4275 /* Trip+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Trip+CoreDataProperties.m"; sourceTree = "<group>"; };
-		7927A7CA1CCD376D000C4275 /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
-		7927A7CB1CCD376D000C4275 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
-		7927A7D21CCD38A7000C4275 /* Trip+Serialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Trip+Serialization.h"; sourceTree = "<group>"; };
-		7927A7D31CCD38A7000C4275 /* Trip+Serialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Trip+Serialization.m"; sourceTree = "<group>"; };
-		7927A7D51CCD38E9000C4275 /* City+Serialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "City+Serialization.h"; sourceTree = "<group>"; };
-		7927A7D61CCD38E9000C4275 /* City+Serialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "City+Serialization.m"; sourceTree = "<group>"; };
-		7927A7D81CCD38FB000C4275 /* Country+Serialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Country+Serialization.h"; sourceTree = "<group>"; };
-		7927A7D91CCD38FB000C4275 /* Country+Serialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Country+Serialization.m"; sourceTree = "<group>"; };
-		7927A7DB1CCD4536000C4275 /* Trip+FetchRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Trip+FetchRequests.h"; sourceTree = "<group>"; };
-		7927A7DC1CCD4536000C4275 /* Trip+FetchRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Trip+FetchRequests.m"; sourceTree = "<group>"; };
-		9358F4471CBD6C3A00FD40CF /* TripCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripCellTableViewCell.h; sourceTree = "<group>"; };
-		9358F4481CBD6C3A00FD40CF /* TripCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripCellTableViewCell.m; sourceTree = "<group>"; };
+		7927A7E71CCD4B48000C4275 /* ConfigureTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigureTripViewController.h; sourceTree = "<group>"; };
+		7927A7E81CCD4B48000C4275 /* ConfigureTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigureTripViewController.m; sourceTree = "<group>"; };
+		7927A7E91CCD4B48000C4275 /* JALeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JALeftViewController.h; sourceTree = "<group>"; };
+		7927A7EA1CCD4B48000C4275 /* JALeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JALeftViewController.m; sourceTree = "<group>"; };
+		7927A7EB1CCD4B48000C4275 /* SidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidePanelController.h; sourceTree = "<group>"; };
+		7927A7EC1CCD4B48000C4275 /* SidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidePanelController.m; sourceTree = "<group>"; };
+		7927A7ED1CCD4B48000C4275 /* TripListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripListController.h; sourceTree = "<group>"; };
+		7927A7EE1CCD4B48000C4275 /* TripListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripListController.m; sourceTree = "<group>"; };
+		7927A7F11CCD4B48000C4275 /* City+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "City+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7927A7F21CCD4B48000C4275 /* City+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "City+CoreDataProperties.m"; sourceTree = "<group>"; };
+		7927A7F31CCD4B48000C4275 /* City+Serialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "City+Serialization.h"; sourceTree = "<group>"; };
+		7927A7F41CCD4B48000C4275 /* City+Serialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "City+Serialization.m"; sourceTree = "<group>"; };
+		7927A7F51CCD4B48000C4275 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		7927A7F61CCD4B48000C4275 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		7927A7F81CCD4B48000C4275 /* Country+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Country+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7927A7F91CCD4B48000C4275 /* Country+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Country+CoreDataProperties.m"; sourceTree = "<group>"; };
+		7927A7FA1CCD4B48000C4275 /* Country+Serialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Country+Serialization.h"; sourceTree = "<group>"; };
+		7927A7FB1CCD4B48000C4275 /* Country+Serialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Country+Serialization.m"; sourceTree = "<group>"; };
+		7927A7FC1CCD4B48000C4275 /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		7927A7FD1CCD4B48000C4275 /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		7927A7FF1CCD4B48000C4275 /* Trip+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Trip+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7927A8001CCD4B48000C4275 /* Trip+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Trip+CoreDataProperties.m"; sourceTree = "<group>"; };
+		7927A8011CCD4B48000C4275 /* Trip+FetchRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Trip+FetchRequests.h"; sourceTree = "<group>"; };
+		7927A8021CCD4B48000C4275 /* Trip+FetchRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Trip+FetchRequests.m"; sourceTree = "<group>"; };
+		7927A8031CCD4B48000C4275 /* Trip+Serialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Trip+Serialization.h"; sourceTree = "<group>"; };
+		7927A8041CCD4B48000C4275 /* Trip+Serialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Trip+Serialization.m"; sourceTree = "<group>"; };
+		7927A8051CCD4B48000C4275 /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
+		7927A8061CCD4B48000C4275 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
+		7927A8081CCD4B48000C4275 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		7927A8091CCD4B48000C4275 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		7927A80B1CCD4B48000C4275 /* TripCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripCellTableViewCell.h; sourceTree = "<group>"; };
+		7927A80C1CCD4B48000C4275 /* TripCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripCellTableViewCell.m; sourceTree = "<group>"; };
 		935DF5F71C8F41A10062046A /* Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		935DF5FB1C8F41A10062046A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		935DF5FC1C8F41A10062046A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,14 +90,6 @@
 		935DF6101C8F41A10062046A /* TripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		935DF6151C8F41A10062046A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		935DF6161C8F41A10062046A /* TripTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripTests.m; sourceTree = "<group>"; };
-		935DF6231C8F58D40062046A /* ConfigureTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigureTripViewController.h; sourceTree = "<group>"; };
-		935DF6241C8F58D40062046A /* ConfigureTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigureTripViewController.m; sourceTree = "<group>"; };
-		935DF6261C8F60120062046A /* TripListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripListController.h; sourceTree = "<group>"; };
-		935DF6271C8F60120062046A /* TripListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripListController.m; sourceTree = "<group>"; };
-		93DF3EA11C903D9100E8ADD5 /* SidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidePanelController.h; sourceTree = "<group>"; };
-		93DF3EA21C903D9100E8ADD5 /* SidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidePanelController.m; sourceTree = "<group>"; };
-		93DF3EA41C903EC700E8ADD5 /* JALeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JALeftViewController.h; sourceTree = "<group>"; };
-		93DF3EA51C903EC700E8ADD5 /* JALeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JALeftViewController.m; sourceTree = "<group>"; };
 		A7B8A70CD34547DB3FE1D5FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,6 +112,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7927A7E61CCD4B48000C4275 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7927A7E71CCD4B48000C4275 /* ConfigureTripViewController.h */,
+				7927A7E81CCD4B48000C4275 /* ConfigureTripViewController.m */,
+				7927A7E91CCD4B48000C4275 /* JALeftViewController.h */,
+				7927A7EA1CCD4B48000C4275 /* JALeftViewController.m */,
+				7927A7EB1CCD4B48000C4275 /* SidePanelController.h */,
+				7927A7EC1CCD4B48000C4275 /* SidePanelController.m */,
+				7927A7ED1CCD4B48000C4275 /* TripListController.h */,
+				7927A7EE1CCD4B48000C4275 /* TripListController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7927A7EF1CCD4B48000C4275 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7927A7F01CCD4B48000C4275 /* City */,
+				7927A7F71CCD4B48000C4275 /* Country */,
+				7927A7FE1CCD4B48000C4275 /* Trip */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7927A7F01CCD4B48000C4275 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				7927A7F11CCD4B48000C4275 /* City+CoreDataProperties.h */,
+				7927A7F21CCD4B48000C4275 /* City+CoreDataProperties.m */,
+				7927A7F31CCD4B48000C4275 /* City+Serialization.h */,
+				7927A7F41CCD4B48000C4275 /* City+Serialization.m */,
+				7927A7F51CCD4B48000C4275 /* City.h */,
+				7927A7F61CCD4B48000C4275 /* City.m */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		7927A7F71CCD4B48000C4275 /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				7927A7F81CCD4B48000C4275 /* Country+CoreDataProperties.h */,
+				7927A7F91CCD4B48000C4275 /* Country+CoreDataProperties.m */,
+				7927A7FA1CCD4B48000C4275 /* Country+Serialization.h */,
+				7927A7FB1CCD4B48000C4275 /* Country+Serialization.m */,
+				7927A7FC1CCD4B48000C4275 /* Country.h */,
+				7927A7FD1CCD4B48000C4275 /* Country.m */,
+			);
+			path = Country;
+			sourceTree = "<group>";
+		};
+		7927A7FE1CCD4B48000C4275 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				7927A7FF1CCD4B48000C4275 /* Trip+CoreDataProperties.h */,
+				7927A8001CCD4B48000C4275 /* Trip+CoreDataProperties.m */,
+				7927A8011CCD4B48000C4275 /* Trip+FetchRequests.h */,
+				7927A8021CCD4B48000C4275 /* Trip+FetchRequests.m */,
+				7927A8031CCD4B48000C4275 /* Trip+Serialization.h */,
+				7927A8041CCD4B48000C4275 /* Trip+Serialization.m */,
+				7927A8051CCD4B48000C4275 /* Trip.h */,
+				7927A8061CCD4B48000C4275 /* Trip.m */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		7927A8071CCD4B48000C4275 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				7927A8081CCD4B48000C4275 /* CoreDataStack.h */,
+				7927A8091CCD4B48000C4275 /* CoreDataStack.m */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		7927A80A1CCD4B48000C4275 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7927A80B1CCD4B48000C4275 /* TripCellTableViewCell.h */,
+				7927A80C1CCD4B48000C4275 /* TripCellTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		935DF5EE1C8F41A10062046A = {
 			isa = PBXGroup;
 			children = (
@@ -135,41 +219,13 @@
 		935DF5F91C8F41A10062046A /* Trip */ = {
 			isa = PBXGroup;
 			children = (
-				7927A7C01CCD376D000C4275 /* Country+CoreDataProperties.h */,
-				7927A7C11CCD376D000C4275 /* Country+CoreDataProperties.m */,
-				7927A7C21CCD376D000C4275 /* Country.h */,
-				7927A7C31CCD376D000C4275 /* Country.m */,
-				7927A7D21CCD38A7000C4275 /* Trip+Serialization.h */,
-				7927A7D31CCD38A7000C4275 /* Trip+Serialization.m */,
-				7927A7D51CCD38E9000C4275 /* City+Serialization.h */,
-				7927A7D61CCD38E9000C4275 /* City+Serialization.m */,
-				7927A7D81CCD38FB000C4275 /* Country+Serialization.h */,
-				7927A7D91CCD38FB000C4275 /* Country+Serialization.m */,
-				7927A7C41CCD376D000C4275 /* City+CoreDataProperties.h */,
-				7927A7C51CCD376D000C4275 /* City+CoreDataProperties.m */,
-				7927A7C61CCD376D000C4275 /* City.h */,
-				7927A7C71CCD376D000C4275 /* City.m */,
-				7927A7C81CCD376D000C4275 /* Trip+CoreDataProperties.h */,
-				7927A7C91CCD376D000C4275 /* Trip+CoreDataProperties.m */,
-				7927A7CA1CCD376D000C4275 /* Trip.h */,
-				7927A7CB1CCD376D000C4275 /* Trip.m */,
 				935DF5FE1C8F41A10062046A /* AppDelegate.h */,
 				935DF5FF1C8F41A10062046A /* AppDelegate.m */,
+				7927A7E61CCD4B48000C4275 /* Controllers */,
+				7927A7EF1CCD4B48000C4275 /* Models */,
+				7927A8071CCD4B48000C4275 /* Storage */,
+				7927A80A1CCD4B48000C4275 /* Views */,
 				935DF6041C8F41A10062046A /* Main.storyboard */,
-				9358F4471CBD6C3A00FD40CF /* TripCellTableViewCell.h */,
-				9358F4481CBD6C3A00FD40CF /* TripCellTableViewCell.m */,
-				93DF3EA41C903EC700E8ADD5 /* JALeftViewController.h */,
-				93DF3EA51C903EC700E8ADD5 /* JALeftViewController.m */,
-				935DF6261C8F60120062046A /* TripListController.h */,
-				935DF6271C8F60120062046A /* TripListController.m */,
-				7927A7DB1CCD4536000C4275 /* Trip+FetchRequests.h */,
-				7927A7DC1CCD4536000C4275 /* Trip+FetchRequests.m */,
-				935DF6231C8F58D40062046A /* ConfigureTripViewController.h */,
-				935DF6241C8F58D40062046A /* ConfigureTripViewController.m */,
-				93DF3EA11C903D9100E8ADD5 /* SidePanelController.h */,
-				7927A7B11CCD2DC2000C4275 /* CoreDataStack.h */,
-				7927A7B21CCD2DC2000C4275 /* CoreDataStack.m */,
-				93DF3EA21C903D9100E8ADD5 /* SidePanelController.m */,
 				7927A7B41CCD33C9000C4275 /* Trip.xcdatamodeld */,
 				935DF6071C8F41A10062046A /* Images.xcassets */,
 				935DF6091C8F41A10062046A /* LaunchScreen.xib */,
@@ -372,25 +428,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7927A7CF1CCD376D000C4275 /* City.m in Sources */,
-				7927A7CE1CCD376D000C4275 /* City+CoreDataProperties.m in Sources */,
-				7927A7CC1CCD376D000C4275 /* Country+CoreDataProperties.m in Sources */,
-				935DF6251C8F58D40062046A /* ConfigureTripViewController.m in Sources */,
-				7927A7D01CCD376D000C4275 /* Trip+CoreDataProperties.m in Sources */,
-				7927A7D11CCD376D000C4275 /* Trip.m in Sources */,
+				7927A8131CCD4B48000C4275 /* City.m in Sources */,
+				7927A8181CCD4B48000C4275 /* Trip+FetchRequests.m in Sources */,
+				7927A8121CCD4B48000C4275 /* City+Serialization.m in Sources */,
+				7927A8111CCD4B48000C4275 /* City+CoreDataProperties.m in Sources */,
+				7927A8161CCD4B48000C4275 /* Country.m in Sources */,
+				7927A8171CCD4B48000C4275 /* Trip+CoreDataProperties.m in Sources */,
+				7927A80D1CCD4B48000C4275 /* ConfigureTripViewController.m in Sources */,
+				7927A8191CCD4B48000C4275 /* Trip+Serialization.m in Sources */,
+				7927A81A1CCD4B48000C4275 /* Trip.m in Sources */,
+				7927A8141CCD4B48000C4275 /* Country+CoreDataProperties.m in Sources */,
+				7927A80F1CCD4B48000C4275 /* SidePanelController.m in Sources */,
 				935DF6001C8F41A10062046A /* AppDelegate.m in Sources */,
-				7927A7DA1CCD38FB000C4275 /* Country+Serialization.m in Sources */,
-				7927A7D41CCD38A7000C4275 /* Trip+Serialization.m in Sources */,
-				7927A7D71CCD38E9000C4275 /* City+Serialization.m in Sources */,
-				935DF6281C8F60120062046A /* TripListController.m in Sources */,
-				7927A7B31CCD2DC2000C4275 /* CoreDataStack.m in Sources */,
-				9358F4491CBD6C3A00FD40CF /* TripCellTableViewCell.m in Sources */,
+				7927A8151CCD4B48000C4275 /* Country+Serialization.m in Sources */,
+				7927A8101CCD4B48000C4275 /* TripListController.m in Sources */,
 				7927A7B61CCD33C9000C4275 /* Trip.xcdatamodeld in Sources */,
+				7927A80E1CCD4B48000C4275 /* JALeftViewController.m in Sources */,
+				7927A81C1CCD4B48000C4275 /* TripCellTableViewCell.m in Sources */,
 				935DF5FD1C8F41A10062046A /* main.m in Sources */,
-				7927A7CD1CCD376D000C4275 /* Country.m in Sources */,
-				7927A7DD1CCD4536000C4275 /* Trip+FetchRequests.m in Sources */,
-				93DF3EA61C903EC700E8ADD5 /* JALeftViewController.m in Sources */,
-				93DF3EA31C903D9100E8ADD5 /* SidePanelController.m in Sources */,
+				7927A81B1CCD4B48000C4275 /* CoreDataStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
